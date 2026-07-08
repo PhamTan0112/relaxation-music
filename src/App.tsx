@@ -180,17 +180,6 @@ function App() {
           setSongIndex={setSongIndex}
           setCurrentTrack={setCurrentTrack}
         />
-
-        <div className="hidden md:block mt-2 pr-8 text-right self-center">
-          <a
-            className="font-bold text-green-400"
-            href="https://thecodedealer.io"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            @TheCodeDealer
-          </a>
-        </div>
       </footer>
     </main>
   );
